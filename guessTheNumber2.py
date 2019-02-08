@@ -39,7 +39,7 @@ def main():
     # Zmaga
     if game_number == uporabnik:
         st_poizkusov = str(st_poizkusov)
-        print("Bravo zmagal si in to kar v " + st_poizkusov + " poizkusu")
+        print(f"Bravo zmagal si in to kar v {st_poizkusov} poizkusu")
 
     # Poraz
     if game_number != uporabnik:
